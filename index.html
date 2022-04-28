@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Scheduling Test</title>
+  <style>
+      #user-blocking, #user-visible, #background, #idle {
+          width:100px;
+          height:100px;
+          position:absolute;
+          opacity: 0.3;
+      }
+      #user-blocking {
+        background-color: #080;
+      }
+      #user-visible {
+          background-color: #f0f;
+      } 
+      #background {
+          background-color: #f00;
+      }
+      #idle {
+          background-color: #00f;
+      }
+  </style>
+</head>
+<body>
+    <div id="user-blocking"></div>
+    <div id="user-visible"></div>
+    <div id="background"></div>
+    <div id="idle"></div>
+    <script src="main.js"></script>
+</body>
+</html>
